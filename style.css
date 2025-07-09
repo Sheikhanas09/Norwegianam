@@ -285,7 +285,7 @@ body {
   font-size: 36px;
   color: #2e8b57;
   margin-bottom: 50px;
-  margin: 25px;
+  margin: 64px;
   text-align: center;
   font-weight: bold;
 }
@@ -359,7 +359,9 @@ body {
 
 /* ========== DRIVING FORCE SECTION ========== */
 .driving-force-section {
-  padding: 100px 10% 120px;
+  /* padding: 100px 10% 120px; */
+  margin: 64px;
+  padding: 10px;
   background-color: white;
   text-align: center;
 }
@@ -441,12 +443,12 @@ body {
 .driving-cards-container:hover .card-hover-content {
   opacity: 1;
   max-height: 400px;
-  filter: blur(3px);
+  /* filter: blur(3px); */
 }
 
-.driving-card:hover .card-hover-content {
+/* .driving-card:hover .card-hover-content {
   filter: blur(0px);
-}
+} */
 
 @media (max-width: 768px) {
   .driving-cards-container {
